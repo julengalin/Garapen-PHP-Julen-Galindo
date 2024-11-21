@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="Balidazioa.php" method="post" enctype="multipart/form-data">
+        <p>Izenburua*:<input type="text" name="izenburua" /></p>
+        <p>Testua*:<input type="text" name="testua" /></p>
+        <label for="forma">Mota:</label>
+        <select id="kategoria" name="kategoria">
+            <option value="eskaintza">Eskaintza</option>
+            <option value="proposamena">Proposamena</option>
+        </select>
+        <p>Irudia:<input type="file" name="irudia" /></p>
+        <p><input type="submit" /></p>
+    </form>
+</body>
+
+</html>
